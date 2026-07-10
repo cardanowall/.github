@@ -6,8 +6,10 @@ Hash any content, anchor the digest on the Cardano blockchain, and later prove
 that *this content existed on or before a given block time* — without trusting
 our servers, our domain, or any issuer identity.
 
-We authored and maintain **Label 309**, the open standard for this, and publish
-its complete reference implementation as open source. The standard is
+We authored and maintain **Label 309**, the open standard for this, now accepted
+into the Cardano CIP process as
+**[CIP-0190](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0190)**,
+and publish its complete reference implementation as open source. The standard is
 issuer-agnostic and standalone-verifiable: any wallet can publish a proof, and
 anyone can verify it from just the transaction and a public block explorer — no
 issuer server required, ever.
@@ -40,5 +42,6 @@ vectors and produce byte-identical output.
 ## Links
 
 - 📖 **The standard:** [label309.org](https://label309.org)
+- 📜 **The CIP:** [CIP-0190](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0190)
 - 🌐 **Hosted service:** [cardanowall.com](https://cardanowall.com)
 - 📨 **Contact:** hello@cardanowall.com
